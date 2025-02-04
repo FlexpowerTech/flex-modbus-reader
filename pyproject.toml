@@ -3,7 +3,6 @@ name = "flex-modbus-reader"
 description = "Flex Modbus Reader"
 dynamic = ["version"]
 authors = [
-    { name="FlexpowerTech", email="info@flexpower.tech" },
     { name="LevchenCom", email="mklevk@outlook.com" },
 ]
 maintainers = [
