@@ -33,7 +33,7 @@ class ModbusDevice:
     model: str
     registers_map: List[Register]
     registers: List[Register] = field(init=False)
-    unit: int
+    unit: int = 1
     index_shift: int = 0
 
     def __post_init__(self):

@@ -50,7 +50,7 @@ device = ModbusDevice(
         Register("value_8", 3252, 2, ModbusTcpClient.DATATYPE.FLOAT32),
         Register("value_9", 3340, 2, ModbusTcpClient.DATATYPE.FLOAT32),
     ],
-    unit=10, # Modbus Slave ID
+    unit=1, # Modbus Slave ID
     index_shift=-1 # the value by which to shift the indices
 )
 
